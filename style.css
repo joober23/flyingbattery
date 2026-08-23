@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+body {
+    font-family: 'Darumadrop One', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #CA50B7;
+    color: #333;
+}
+
+header {
+    background-color: #7750CA;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(42, 3, 134, 0.3);
+}
+
+.logo {
+    width: 10px;
+}
+
+nav a {
+    color: #ede2de;
+    margin: 0 60px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.itch {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 3px solid #7750CA;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #7750CA, #CA50B7);
+    color: #fff;
+    font: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #542f9d, 0 8px 14px rgba(42, 3, 134, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.itch:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 0 #542f9d, 0 10px 18px rgba(42, 3, 134, 0.3);
+}
+
+.itch:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #542f9d, 0 4px 8px rgba(42, 3, 134, 0.2);
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background: #ede2de;
+    margin-bottom: 35px;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(42, 3, 134, 0.3);
+}
+
+.card-conteudo {
+    display: block;
+    text-align: left;
+}
+
+.card-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-logo img.img-logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.card-texto {
+    display: table-cell;
+    vertical-align: top;
+    width: 60%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.card-imagem {
+    display: table-cell;
+    vertical-align: middle;
+    width: 40%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+section img[src*="tower.png"] {
+    filter: brightness(0.8) !important;
+    opacity: 0.9;
+}
+section img[src*="express.png"] {
+    filter: brightness(0.1) !important;
+}
+section img[src*="woods.png"] {
+    filter: brightness(0.1) !important;
+}
+
+table, th, td {
+    border: 1px solid #ede2de;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+aside {
+    background: #ede2de;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(42, 3, 134, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7750CA;
+    color: #ede2de;
+}
